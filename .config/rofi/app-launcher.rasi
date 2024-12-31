@@ -1,0 +1,125 @@
+configuration {
+    modi:                        "drun,filebrowser,window,run";
+    show-icons:                  true;
+    display-drun:                "APPS";
+    display-run:                 "RUN";
+    display-filebrowser:         "FILES";
+    display-window:              "WINDOWS";
+    drun-display-format:         "{name}";
+    window-format:               "{w}{t}";
+    font:                        "Cartograph CF 14";
+    icon-theme:                  "Tela-circle-dracula";
+}
+
+@theme "./colors.rasi"
+
+
+window {
+    height:                      30em;
+    width:                       63em;
+    transparency:                "real";
+    fullscreen:                  false;
+    enabled:                     true;
+    cursor:                      "default";
+    spacing:                     0em;
+    padding:                     0em;
+    border-radius:               1em;
+    border-color:                @border-color;
+    background-color:            transparent;
+}
+mainbox {
+    enabled:                     true;
+    spacing:                     0em;
+    padding:                     0.8em;
+    orientation:                 horizontal;
+    children:                    [ "inputbar" , "listbox" ];
+    background-color:            #00000003;
+}
+
+
+inputbar {
+    enabled:                     true;
+    width:                       33.5em;
+    spacing:                     0em;
+    padding:                     0em;
+    children:                    [ "entry" ];
+    expand:                      false;
+    background-color:            @background-color;
+    background-image:            @background-image-height;
+    border-radius:               1em 0em 0em 1em;
+}
+entry {
+    enabled:                     false;
+}
+
+
+listbox {
+    spacing:                     0em;
+    padding:                     0em;
+    children:                    [ "dummy" , "listview" , "dummy" ];
+    background-color:            @background-color;
+    border-radius:               0em 1em 1em 0em;
+}
+listview {
+    enabled:                     true;
+    spacing:                     0em;
+    padding:                     1em 2em 1em 2em;
+    columns:                     1;
+    lines:                       8;
+    cycle:                       true;
+    dynamic:                     true;
+    scrollbar:                   false;
+    layout:                      vertical;
+    reverse:                     false;
+    expand:                      false;
+    fixed-height:                true;
+    fixed-columns:               true;
+    cursor:                      "default";
+    background-color:            transparent;
+    text-color:                  @foreground;
+}
+dummy {
+    background-color:            transparent;
+}
+
+
+element {
+    enabled:                     true;
+    spacing:                     1em;
+    padding:                     0.5em 0.5em 0.5em 1.5em;
+    cursor:                      pointer;
+    background-color:            transparent;
+    text-color:                  @foreground;
+}
+element selected.normal {
+    background-color:            @selected-normal-background;
+    text-color:                  @selected-normal-foreground;
+    border-radius:               1em;
+}
+element-icon {
+    size:                        2.2em;
+    cursor:                      inherit;
+    background-color:            transparent;
+    text-color:                  inherit;
+}
+element-text {
+    vertical-align:              0.5;
+    horizontal-align:            0.0;
+    cursor:                      inherit;
+    background-color:            transparent;
+    text-color:                  inherit;
+}
+
+error-message {
+    text-color:                  @urgent-foreground;
+    background-color:            @urgent-background;
+    text-transform:              capitalize;
+    children:                    [ "textbox" ];
+}
+
+textbox {
+    text-color:                  inherit;
+    background-color:            inherit;
+    vertical-align:              0.5;
+    horizontal-align:            0.5;
+}

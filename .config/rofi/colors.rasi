@@ -1,0 +1,31 @@
+* {
+    active-background: #0D6BCC;
+    active-foreground: @foreground;
+    normal-background: @background;
+    normal-foreground: @foreground;
+    urgent-background: #2C4DC6;
+    urgent-foreground: @foreground;
+
+    alternate-active-background: @background;
+    alternate-active-foreground: @foreground;
+    alternate-normal-background: @background;
+    alternate-normal-foreground: @foreground;
+    alternate-urgent-background: @background;
+    alternate-urgent-foreground: @foreground;
+
+    selected-active-background: #2C4DC6;
+    selected-active-foreground: @foreground;
+    selected-normal-background: #0D6BCC;
+    selected-normal-foreground: @foreground;
+    selected-urgent-background: #2067C9;
+    selected-urgent-foreground: @foreground;
+
+    background-color: rgba(10,17,52,0.6);
+    background: #0a1134;
+    foreground: #c1c3cc;
+    border-color: @background;
+    spacing: 2;
+
+    background-image-width:            url("/home/sainbiswas/.dotfiles/wallpapers/anime-kimono.jpg", width);
+    background-image-height:            url("/home/sainbiswas/.dotfiles/wallpapers/anime-kimono.jpg", height);
+}

@@ -1,0 +1,18 @@
+[general]
+fullscreen = true
+early-exit = true
+corner-roundness = 12
+initial-tool = "brush"
+copy-command = "wl-copy"
+annotation-size-factor = 2
+output-filename = "~/Pictures/ScreenShot/%Y-%m-%d_%H:%M:%S.png"
+save-after-copy = false
+default-hide-toolbars = false
+primary-highlighter = "block"
+disable-notifications = false
+[font]
+family = "Cartograph CF"
+style = "Bold"
+[color-palette]
+palette = ["#cba6f7", "#f38ba8", "#fab387", "#a6e3a1", "#74c7ec", "#89b4fa"]
+custom = ["#f5e0dc", "#f2cdcd", "#f5c2e7", "#eba0ac", "#f9e2af", "#94e2d5"]

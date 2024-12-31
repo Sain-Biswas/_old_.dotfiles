@@ -1,0 +1,68 @@
+configuration {
+    show-icons:                 false;
+}
+
+@theme "./colors.rasi"
+
+* {
+    font-family: "Cartograph CF 18";
+}
+
+window {
+    location:                    center;
+    anchor:                      center;
+    fullscreen:                  false;
+    width:                       20em;
+    padding:                     0.5em;
+    background-color:            transparent;
+}
+
+mainbox {
+    orientation:                 vertical;
+    border-radius:               0.5em;
+    padding:                     0.5em;
+    background-color:            @background-color;
+    children:                    [ "message", "listview" ];
+}
+
+message {
+    enabled:                     true;
+    margin:                      0em;
+    padding:                     0.5em;
+    border-radius:               0.5em;
+    background-color:            transparent;
+    text-color:                  @foreground;
+}
+
+textbox {
+    horizontal-align:            0.5;
+    background-color:            transparent;
+    text-color:                  @foreground;
+}
+
+listview {
+    columns:                     2;
+    lines:                       2;
+    spacing:                     0.5em;
+    background-color:            transparent;
+}
+
+element {
+    enabled:                     true;
+    padding:                     0.5em 2em;
+    border-radius:               0.5em;
+    background-color:            transparent;
+    text-color:                  @foreground;
+    cursor:                      pointer;
+}
+
+element-text {
+    horizontal-align:            0.5;
+    background-color:            transparent;
+    text-color:                  @foreground;
+}
+
+element selected.normal {
+    background-color:            @selected-normal-background;
+    text-color:                  @selected-normal-foreground;
+}

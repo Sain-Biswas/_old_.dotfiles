@@ -1,0 +1,167 @@
+@import "colors.css";
+
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: "Cartograph CF", FontAwesome, Roboto, Helvetica, Arial,
+        sans-serif;
+    font-style: italic;
+    font-size: 16px;
+}
+
+window#waybar {
+    background-color: alpha(@background, 0.6);
+    color: @foreground;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+window#waybar.termite {
+    background-color: @color8;
+}
+
+window#waybar.chromium {
+    background-color: alpha(@background, 0.6);
+    border: none;
+}
+
+button {
+    border: none;
+    border-radius: 0;
+}
+
+button:hover {
+    background: inherit;
+}
+
+tooltip {
+    background: @background;
+    border: 1px solid @color8;
+}
+tooltip label {
+    color: @color4;
+}
+
+#workspaces {
+    margin: 6px 0px;
+    border-radius: 9999999px;
+    background-color: @background;
+}
+
+#workspaces button {
+    padding: 0 7px;
+    background-color: transparent;
+    color: @foreground;
+    border-radius: 999999px;
+}
+
+#workspaces button:hover {
+    background: @color4;
+}
+
+#workspaces button.active {
+    background-color: @color3;
+    color: @background;
+}
+
+#workspaces button.focused {
+    background-color: @color2;
+    color: @background;
+}
+
+#workspaces button.urgent {
+    background-color: @color1;
+    color: @background;
+}
+
+#clock,
+#battery,
+#backlight,
+#network,
+#pulseaudio,
+#tray,
+#custom-music,
+#idle_inhibitor {
+    padding: 0 12px;
+    color: @foreground;
+    margin: 6px 0px;
+    border-radius: 9999999px;
+    background-color: @background;
+}
+
+#clock {
+    margin-left: 6px;
+}
+
+#battery {
+    margin-right: 6px;
+}
+
+#battery.charging,
+#battery.plugged {
+    color: @background;
+    background-color: @color2;
+}
+
+@keyframes blink {
+    to {
+        background-color: @background;
+        color: @color1;
+    }
+}
+
+/* Using steps() instead of linear as a timing function to limit cpu usage */
+#battery.critical:not(.charging) {
+    background-color: @color1;
+    color: @background;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: steps(12);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+label:focus {
+    background-color: @background;
+}
+
+#network.disconnected {
+    background-color: @color1;
+    color: @background;
+    padding-right: 17px;
+}
+
+#pulseaudio.muted {
+    background-color: @color1;
+    color: @background;
+}
+
+#pulseaudio:hover {
+    background-color: @color5;
+    color: @background;
+}
+
+#custom-music {
+    min-width: 100px;
+}
+
+#tray {
+    background-color: @background;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    background-color: @color4;
+}
+
+#idle_inhibitor.activated {
+    background-color: @color4;
+    color: @background;
+}

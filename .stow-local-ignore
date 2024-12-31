@@ -1,0 +1,10 @@
+.git
+.gitignore
+README.md
+wallpapers
+scripts
+resources
+alias.zsh
+pywal.zsh
+install.sh
+post-install.sh
