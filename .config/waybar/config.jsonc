@@ -13,8 +13,8 @@
     "pulseaudio",
     "network",
     "backlight",
-    "battery",
     "tray",
+    "battery",
   ],
   "hyprland/workspaces": {
     "disable-scroll": true,
