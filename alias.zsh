@@ -1,7 +1,7 @@
 # Common Apps
 alias vi="nvim"
 alias vim="nvim"
-alias c="clear"
+alias c="code"
 alias zed="zeditor"
 alias mkdir="mkdir -p"
 alias compass='mongodb-compass --ignore-additional-command-line-flags --password-store="gnome-libsecret" &'

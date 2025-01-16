@@ -15,5 +15,7 @@
     "mode": "system",
     "light": "pywal",
     "dark": "pywal"
-  }
+  },
+  "format_on_save": "on",
+  "autosave": "on_focus_change"
 }

@@ -23,13 +23,13 @@ cargo clean
 
 # Install Hyprland
 cd ~
-paru -S --needed hyprland-git xdg-desktop-portal-hyprland-git sddm noto-fonts noto-fonts-cjk noto-fonts-emoji nautilus rofi brightnessctl ghostty neovim-git
+paru -S --needed hyprland-git xdg-desktop-portal-hyprland-git sddm noto-fonts noto-fonts-cjk noto-fonts-emoji nautilus rofi brightnessctl ghostty neovim-git i3-wm i3lock
 
 # Install pipewire
 sudo pacman -S --needed pipewire pipewire-alsa pipewire-audio pipewire-jack pipewire-pulse gst-plugin-pipewire wireplumber pavucontrol
 
 # Install user packages
-paru -S --needed brave-bin profile-sync-daemon-brave zen-browser-bin hyprpaper-git hypridle-git hyprlock-git nwg-look hyprpicker-git grimblast-git waybar python-pywal16 loupe dunst zed gnome-disk-utility cliphist polkit-gnome eslint clang rust-analyzer ttf-font-awesome visual-studio-code-bin zsh bat fzf zoxide python-pip vlc ffmpeg python-pywalfox onevpl-intel-gpu adw-gtk-theme qt5ct qt6ct qt5-wayland qt6-wayland kvantum kvantum-qt5 eza telegram-desktop wal-telegram-git btop unzip satty firefox-developer-edition less spotify jdk-openjdk
+paru -S --needed brave-bin profile-sync-daemon-brave zen-browser-bin hyprpaper-git hypridle-git hyprlock-git nwg-look hyprpicker-git grimblast-git waybar python-pywal16 loupe dunst zed gnome-disk-utility cliphist polkit-gnome eslint clang rust-analyzer ttf-font-awesome visual-studio-code-bin zsh bat fzf zoxide python-pip vlc ffmpeg python-pywalfox onevpl-intel-gpu adw-gtk-theme qt5ct qt6ct qt5-wayland qt6-wayland kvantum kvantum-qt5 eza telegram-desktop wal-telegram-git btop unzip satty firefox-developer-edition less spotify jdk-openjdk google-chrome feh polybar picom 
 
 # Install nvm and node
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | sh
