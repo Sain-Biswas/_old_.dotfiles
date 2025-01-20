@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env bash
 
 # Set some variables
 wall_dir="${HOME}/.dotfiles/wallpapers/"
@@ -56,7 +56,7 @@ cat ~/.cache/wal/colors-terminal.zsh > ~/.dotfiles/pywal.zsh
 cat ~/.cache/wal/colors-btop.theme > ~/.dotfiles/.config/btop/themes/pywal.theme
 cat ~/.cache/wal/colors-dunst.dunstrc > ~/.dotfiles/.config/dunst/dunstrc
 cat ~/.cache/wal/colors-hypr.conf > ~/.dotfiles/.config/hypr/configuration/colors.conf
-cat ~/.cache/wal/i3-config > ~/.dotfiles/.config/i3/configuration/theme.conf
+
 
 bat cache --build
 

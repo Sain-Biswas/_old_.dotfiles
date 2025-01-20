@@ -1,9 +1,9 @@
 * {
-    active-background: #A0566D;
+    active-background: #CFAAB1;
     active-foreground: @foreground;
     normal-background: @background;
     normal-foreground: @foreground;
-    urgent-background: #56586E;
+    urgent-background: #D08B93;
     urgent-foreground: @foreground;
 
     alternate-active-background: @background;
@@ -13,19 +13,19 @@
     alternate-urgent-background: @background;
     alternate-urgent-foreground: @foreground;
 
-    selected-active-background: #56586E;
+    selected-active-background: #D08B93;
     selected-active-foreground: @foreground;
-    selected-normal-background: #A0566D;
+    selected-normal-background: #CFAAB1;
     selected-normal-foreground: @foreground;
-    selected-urgent-background: #AB837E;
+    selected-urgent-background: #E0A4A7;
     selected-urgent-foreground: @foreground;
 
-    background-color: rgba(10,13,17,0.6);
-    background: #0a0d11;
-    foreground: #c1c2c3;
+    background-color: rgba(56,25,30,0.6);
+    background: #38191e;
+    foreground: #cdc5c6;
     border-color: @background;
     spacing: 2;
 
-    background-image-width:            url("/home/sainbiswas/.dotfiles/wallpapers/arlecchino-snow.jpeg", width);
-    background-image-height:            url("/home/sainbiswas/.dotfiles/wallpapers/arlecchino-snow.jpeg", height);
+    background-image-width:            url("/home/sainbiswas/.dotfiles/wallpapers/yae-miko-sakura.png", width);
+    background-image-height:            url("/home/sainbiswas/.dotfiles/wallpapers/yae-miko-sakura.png", height);
 }
