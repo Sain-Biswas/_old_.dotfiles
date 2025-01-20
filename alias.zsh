@@ -22,6 +22,7 @@ alias pni="pnpm install"
 alias pna="pnpm add"
 alias pnup="pnpm up"
 alias pnupl="pnpm up --latest"
+alias pnr="pnpm remove"
 
 # eza
 alias ls="eza -Ga"
