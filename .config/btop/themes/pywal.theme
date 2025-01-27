@@ -1,62 +1,62 @@
-theme[main_bg]="#38191e"
+theme[main_bg]="#211012"
 
-theme[main_fg]="#cdc5c6"
+theme[main_fg]="#c7c3c3"
 
-theme[title]="#cdc5c6"
+theme[title]="#c7c3c3"
 
-theme[hi_fg]="#D08B93"
+theme[hi_fg]="#987491"
 
-theme[selected_bg]="#cdc5c6"
+theme[selected_bg]="#c7c3c3"
 
-theme[selected_fg]="#38191e"
+theme[selected_fg]="#211012"
 
-theme[inactive_fg]="#7e676a"
+theme[inactive_fg]="#725e5f"
 
-theme[graph_text]="#F0CFD2"
+theme[graph_text]="#E6B0CB"
 
-theme[meter_bg]="#38191e"
+theme[meter_bg]="#211012"
 
-theme[proc_misc]="#F0CFD2"
+theme[proc_misc]="#E6B0CB"
 
-theme[cpu_box]="#F0CFD2"
-theme[mem_box]="#D6BAC5"
-theme[net_box]="#D08B93"
-theme[proc_box]="#E8C3BA"
+theme[cpu_box]="#E6B0CB"
+theme[mem_box]="#A4B3E7"
+theme[net_box]="#987491"
+theme[proc_box]="#D79CAD"
 
-theme[div_line]="#7e676a"
+theme[div_line]="#725e5f"
 
-theme[temp_start]="#CFAAB1"
-theme[temp_mid]="#E0A4A7"
-theme[temp_end]="#D08B93"
+theme[temp_start]="#DB768A"
+theme[temp_mid]="#B08DA3"
+theme[temp_end]="#987491"
 
-theme[cpu_start]="#E8C3BA"
-theme[cpu_mid]="#D6BAC5"
-theme[cpu_end]="#F0CFD2"
+theme[cpu_start]="#D79CAD"
+theme[cpu_mid]="#A4B3E7"
+theme[cpu_end]="#E6B0CB"
 
-theme[free_start]="#CFAAB1"
-theme[free_mid]="#E0A4A7"
-theme[free_end]="#E8C3BA"
+theme[free_start]="#DB768A"
+theme[free_mid]="#B08DA3"
+theme[free_end]="#D79CAD"
 
-theme[cached_start]="#E0A4A7"
-theme[cached_mid]="#E8C3BA"
-theme[cached_end]="#D6BAC5"
+theme[cached_start]="#B08DA3"
+theme[cached_mid]="#D79CAD"
+theme[cached_end]="#A4B3E7"
 
-theme[available_start]="#E0A4A7"
-theme[available_mid]="#CFAAB1"
-theme[available_end]="#D08B93"
+theme[available_start]="#B08DA3"
+theme[available_mid]="#DB768A"
+theme[available_end]="#987491"
 
-theme[used_start]="#CFAAB1"
-theme[used_mid]="#E0A4A7"
-theme[used_end]="#E8C3BA"
+theme[used_start]="#DB768A"
+theme[used_mid]="#B08DA3"
+theme[used_end]="#D79CAD"
 
-theme[download_start]="#D6BAC5"
-theme[download_mid]="#E0A4A7"
-theme[download_end]="#D08B93"
+theme[download_start]="#A4B3E7"
+theme[download_mid]="#B08DA3"
+theme[download_end]="#987491"
 
-theme[upload_start]="#CFAAB1"
-theme[upload_mid]="#E8C3BA"
-theme[upload_end]="#F0CFD2"
+theme[upload_start]="#DB768A"
+theme[upload_mid]="#D79CAD"
+theme[upload_end]="#E6B0CB"
 
-theme[process_start]="#CFAAB1"
-theme[process_mid]="#E0A4A7"
-theme[process_end]="#E8C3BA"
+theme[process_start]="#DB768A"
+theme[process_mid]="#B08DA3"
+theme[process_end]="#D79CAD"

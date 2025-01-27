@@ -50,6 +50,7 @@ cat ~/.cache/wal/colors-ghostty > ~/.dotfiles/.config/ghostty/themes/pywal
 cat ~/.cache/wal/colors-bat.tmTheme > ~/.dotfiles/.config/bat/themes/pywal.tmTheme
 cat ~/.cache/wal/colors-gtk.css > ~/.dotfiles/.config/gtk-3.0/gtk.css
 cat ~/.cache/wal/colors-gtk.css > ~/.dotfiles/.config/gtk-4.0/gtk.css
+cat ~/.cache/wal/colors-gtk.css > ~/.dotfiles/.config/gtk-4.0/gtk-dark.css
 cat ~/.cache/wal/pywal.kvconfig > ~/.dotfiles/.config/Kvantum/pywal/pywal.kvconfig
 cat ~/.cache/wal/pywal.svg > ~/.dotfiles/.config/Kvantum/pywal/pywal.svg
 cat ~/.cache/wal/colors-terminal.zsh > ~/.dotfiles/pywal.zsh
