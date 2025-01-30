@@ -1,9 +1,9 @@
 * {
-    active-background: #DB768A;
+    active-background: #696A79;
     active-foreground: @foreground;
     normal-background: @background;
     normal-foreground: @foreground;
-    urgent-background: #987491;
+    urgent-background: #5F5E71;
     urgent-foreground: @foreground;
 
     alternate-active-background: @background;
@@ -13,19 +13,19 @@
     alternate-urgent-background: @background;
     alternate-urgent-foreground: @foreground;
 
-    selected-active-background: #987491;
+    selected-active-background: #5F5E71;
     selected-active-foreground: @foreground;
-    selected-normal-background: #DB768A;
+    selected-normal-background: #696A79;
     selected-normal-foreground: @foreground;
-    selected-urgent-background: #B08DA3;
+    selected-urgent-background: #757386;
     selected-urgent-foreground: @foreground;
 
-    background-color: rgba(33,16,18,0.6);
-    background: #211012;
-    foreground: #c7c3c3;
+    background-color: rgba(16,18,22,0.6);
+    background: #101216;
+    foreground: #c3c3c4;
     border-color: @background;
     spacing: 2;
 
-    background-image-width:            url("/home/sainbiswas/.dotfiles/wallpapers/pixel-art-city.jpg", width);
-    background-image-height:            url("/home/sainbiswas/.dotfiles/wallpapers/pixel-art-city.jpg", height);
+    background-image-width:            url("/home/sainbiswas/.dotfiles/wallpapers/static-samurai-vs-dragon.png", width);
+    background-image-height:            url("/home/sainbiswas/.dotfiles/wallpapers/static-samurai-vs-dragon.png", height);
 }
