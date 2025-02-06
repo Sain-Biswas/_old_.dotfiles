@@ -1,0 +1,9 @@
+go
+rust
+
+fastfetch
+ntfs-3g
+stow
+
+lldb
+gdb

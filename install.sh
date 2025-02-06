@@ -1,9 +1,11 @@
+#!/usr/bin/env bash
+
 # Update all packages
 sudo pacman -Syyu
 
 # Creating symlinks for dotfiles
 cd ~
-sudo pacman -S --needed rust go stow fastfetch lldb gdb
+sudo pacman -S --needed $(tr '\n' ' ' < pkg_list_core.txt && echo ' ')
 mkdir -p .config Github .icons
 cd .config
 touch hello.txt
@@ -23,13 +25,13 @@ cargo clean
 
 # Install Hyprland
 cd ~
-paru -S --needed hyprland xdg-desktop-portal-hyprland sddm noto-fonts noto-fonts-cjk noto-fonts-emoji nautilus rofi brightnessctl ghostty neovim
+paru -S --needed $(tr '\n' ' ' < pkg_list_hyprland.txt && echo ' ')
 
 # Install pipewire
-sudo pacman -S --needed pipewire pipewire-alsa pipewire-audio pipewire-jack pipewire-pulse gst-plugin-pipewire wireplumber pavucontrol
+sudo pacman -S --needed $(tr '\n' ' ' < pkg_list_pipewire.txt && echo ' ')
 
 # Install user packages
-paru -S --needed brave-bin profile-sync-daemon-brave zen-browser-bin hyprpaper hypridle hyprlock nwg-look hyprpicker grimblast-git waybar python-pywal16 loupe dunst zed gnome-disk-utility cliphist polkit-gnome eslint clang rust-analyzer ttf-font-awesome visual-studio-code-bin zsh bat fzf zoxide python-pip vlc ffmpeg python-pywalfox onevpl-intel-gpu adw-gtk-theme qt5ct qt6ct qt5-wayland qt6-wayland kvantum kvantum-qt5 eza telegram-desktop wal-telegram-git btop unzip satty firefox-developer-edition less spotify jdk-openjdk google-chrome postman-bin mongodb-compass
+paru -S --needed $(tr '\n' ' ' < pkg_list_additional.txt && echo ' ')
 
 # Install nvm and node
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | sh

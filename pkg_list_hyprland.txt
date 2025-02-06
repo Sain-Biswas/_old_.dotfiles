@@ -1,0 +1,15 @@
+hyprland
+xdg-desktop-portal-hyprland
+
+sddm
+
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+
+ghostty
+neovim
+brightnessctl
+
+rofi
+nautilus
