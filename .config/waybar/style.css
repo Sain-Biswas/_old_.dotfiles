@@ -46,13 +46,15 @@ tooltip label {
 }
 
 #workspaces {
-    margin: 6px 0px;
+    margin: 4px 0px;
+    padding: 3px;
     border-radius: 9999999px;
     background-color: @background;
 }
 
 #workspaces button {
-    padding: 0 7px;
+    padding: 0px 6px;
+    margin: 1px 1px;
     background-color: transparent;
     color: @foreground;
     border-radius: 999999px;
@@ -63,16 +65,19 @@ tooltip label {
 }
 
 #workspaces button.active {
+    padding: 0px 12px;
     background-color: @color3;
     color: @background;
 }
 
 #workspaces button.focused {
+    padding: 0px 9px;
     background-color: @color2;
     color: @background;
 }
 
 #workspaces button.urgent {
+    padding: 0px 9px;
     background-color: @color1;
     color: @background;
 }
@@ -87,7 +92,7 @@ tooltip label {
 #idle_inhibitor {
     padding: 0 12px;
     color: @foreground;
-    margin: 6px 0px;
+    margin: 4px 0px;
     border-radius: 9999999px;
     background-color: @background;
 }
