@@ -3,6 +3,7 @@ profile-sync-daemon-brave
 firefox-developer-edition
 google-chrome
 zen-browser-bin
+chromium
 
 bat
 btop
@@ -54,3 +55,4 @@ telegram-desktop
 vlc
 
 onevpl-intel-gpu
+python-pip
