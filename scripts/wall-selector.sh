@@ -57,6 +57,7 @@ cat ~/.cache/wal/colors-terminal.zsh > ~/.dotfiles/pywal.zsh
 cat ~/.cache/wal/colors-btop.theme > ~/.dotfiles/.config/btop/themes/pywal.theme
 cat ~/.cache/wal/colors-dunst.dunstrc > ~/.dotfiles/.config/dunst/dunstrc
 cat ~/.cache/wal/colors-hypr.conf > ~/.dotfiles/.config/hypr/configuration/colors.conf
+cat ~/.cache/wal/pywal_16.yml > ~/.local/share/warp-terminal/themes/pywal_16.yml
 
 
 bat cache --build
