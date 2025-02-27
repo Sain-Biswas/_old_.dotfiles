@@ -90,25 +90,25 @@
 
 
 [urgency_low]
-    background = "#0a0d11"
-    foreground = "#c1c2c3"
-	highlight = "#67708A, #9F738B"
+    background = "#121518"
+    foreground = "#c3c4c5"
+	highlight = "#68B6C5, #DA96AF"
     timeout = 20
 
 [urgency_normal]
-    background = "#0a0d11"
-    foreground = "#c1c2c3"
-	frame_color = "#A0566D"
-	highlight = "#67708A, #9F738B"
+    background = "#121518"
+    foreground = "#c3c4c5"
+	frame_color = "#5D7083"
+	highlight = "#68B6C5, #DA96AF"
     timeout = 20
     override_pause_level = 30
     default_icon = dialog-information
 
 [urgency_critical]
-    background = "#0a0d11"
-    foreground = "#c1c2c3"
-    frame_color = "#56586E"
-	highlight = "#56586E, #c1c2c3"
+    background = "#121518"
+    foreground = "#c3c4c5"
+    frame_color = "#B2A35C"
+	highlight = "#B2A35C, #c3c4c5"
     timeout = 0
     override_pause_level = 60
     default_icon = dialog-warning

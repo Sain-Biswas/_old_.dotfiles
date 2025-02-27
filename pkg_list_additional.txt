@@ -66,3 +66,7 @@ appmenu-gtk-module
 libappindicator-gtk3
 librsvg
 
+i3-wm
+picom
+betterlockscreen
+polybar
