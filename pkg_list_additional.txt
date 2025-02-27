@@ -5,6 +5,8 @@ google-chrome
 zen-browser-bin
 chromium
 
+warp-terminal
+
 bat
 btop
 eza
