@@ -1,9 +1,9 @@
 * {
-    active-background: #1BB3C8;
+    active-background: #A0566D;
     active-foreground: @foreground;
     normal-background: @background;
     normal-foreground: @foreground;
-    urgent-background: #F2629E;
+    urgent-background: #56586E;
     urgent-foreground: @foreground;
 
     alternate-active-background: @background;
@@ -13,19 +13,19 @@
     alternate-urgent-background: @background;
     alternate-urgent-foreground: @foreground;
 
-    selected-active-background: #F2629E;
+    selected-active-background: #56586E;
     selected-active-foreground: @foreground;
-    selected-normal-background: #1BB3C8;
+    selected-normal-background: #A0566D;
     selected-normal-foreground: @foreground;
-    selected-urgent-background: #30A1C0;
+    selected-urgent-background: #AB837E;
     selected-urgent-foreground: @foreground;
 
-    background-color: rgba(25,20,61,0.6);
-    background: #19143d;
-    foreground: #c5c4ce;
+    background-color: rgba(10,13,17,0.6);
+    background: #0a0d11;
+    foreground: #c1c2c3;
     border-color: @background;
     spacing: 2;
 
-    background-image-width:            url("/home/sainbiswas/.dotfiles/wallpapers/baal-sun.png", width);
-    background-image-height:            url("/home/sainbiswas/.dotfiles/wallpapers/baal-sun.png", height);
+    background-image-width:            url("/home/sainbiswas/.dotfiles/wallpapers/arlecchino-snow.jpeg", width);
+    background-image-height:            url("/home/sainbiswas/.dotfiles/wallpapers/arlecchino-snow.jpeg", height);
 }

@@ -56,3 +56,11 @@ vlc
 
 onevpl-intel-gpu
 python-pip
+
+openssl
+file
+webkit2gtk-4.1
+appmenu-gtk-module
+libappindicator-gtk3
+librsvg
+

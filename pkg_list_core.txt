@@ -7,3 +7,8 @@ stow
 
 lldb
 gdb
+
+base-devel
+curl
+wget
+
