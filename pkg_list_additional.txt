@@ -70,3 +70,4 @@ i3-wm
 picom
 betterlockscreen
 polybar
+feh
