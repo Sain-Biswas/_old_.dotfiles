@@ -71,3 +71,4 @@ picom
 betterlockscreen
 polybar
 feh
+xterm
