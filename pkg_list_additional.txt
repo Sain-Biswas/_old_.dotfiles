@@ -72,3 +72,4 @@ betterlockscreen
 polybar
 feh
 xterm
+mpd
