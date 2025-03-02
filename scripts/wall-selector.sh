@@ -59,6 +59,7 @@ cat ~/.cache/wal/colors-dunst.dunstrc > ~/.dotfiles/.config/dunst/dunstrc
 cat ~/.cache/wal/colors-hypr.conf > ~/.dotfiles/.config/hypr/configuration/colors.conf
 cat ~/.cache/wal/pywal_16.yml > ~/.local/share/warp-terminal/themes/pywal_16.yml
 cat ~/.cache/wal/colors-polybar > ~/.dotfiles/.config/polybar/colors.ini
+cat ~/.cache/wal/colors-i3.conf > ~/.dotfiles/.config/i3/configuration/pywal.conf
 
 
 bat cache --build
