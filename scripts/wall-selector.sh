@@ -64,15 +64,18 @@ cat ~/.cache/wal/colors-i3.conf > ~/.dotfiles/.config/i3/configuration/pywal.con
 
 bat cache --build
 
-killall dunst
-killall waybar
-waybar &
-dunst &
-
 pywalfox update
 wal-telegram --wal
 
-hyprctl hyprpaper preload "${wall_path}"
-hyprctl hyprpaper wallpaper ",${wall_path}"
+if [[ "$DESKTOP_SESSION" == 'i3' ]]; then
+    i3-msg reload && i3-msg restart
+else
+    killall dunst
+    killall waybar
+    waybar &
+    dunst &
+    hyprctl hyprpaper preload "${wall_path}"
+    hyprctl hyprpaper wallpaper ",${wall_path}"
+fi
 
 exit 0
