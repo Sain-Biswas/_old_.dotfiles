@@ -8,6 +8,12 @@ font pango:CaskaydiaCove Nerd Font 14
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
 
+# Inner gaps for all windows: space between two adjacent windows (or split containers).
+gaps inner 5
+
+# Outer gaps for all windows: space along the screen edges.
+gaps outer 0
+
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
