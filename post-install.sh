@@ -11,3 +11,6 @@ pnpm config set store-dir ~/.pnpm-store
 
 # Set BIOS clock in local time to fix dual boot problem
 timedatectl set-local-rtc 1 --adjust-system-clock
+
+# Set all directories as git safe directory
+git config --global --add safe.directory "*"
