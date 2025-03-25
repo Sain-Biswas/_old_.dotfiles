@@ -1,8 +1,8 @@
 export FZF_DEFAULT_OPTS=" \
---color=bg+:#5b6670,bg:#121518,spinner:#c3c4c5,hl:#B2A35C \
---color=fg:#c3c4c5,header:#B2A35C,info:#C5A5BC,pointer:#c3c4c5 \
---color=marker:#68B6C5,fg+:#c3c4c5,prompt:#C5A5BC,hl+:#B2A35C \
---color=selected-bg:#121518 \
+--color=bg+:#6a677e,bg:#19143d,spinner:#c5c4ce,hl:#F2629E \
+--color=fg:#c5c4ce,header:#F2629E,info:#F88695,pointer:#c5c4ce \
+--color=marker:#1BC4D0,fg+:#c5c4ce,prompt:#F88695,hl+:#F2629E \
+--color=selected-bg:#19143d \
 --multi"
 
-zstyle ':fzf-tab:*' fzf-flags --color=bg+:#5b6670,bg:#121518,spinner:#c3c4c5,hl:#B2A35C,fg:#c3c4c5,header:#B2A35C,info:#C5A5BC,pointer:#c3c4c5,marker:#68B6C5,fg+:#c3c4c5,prompt:#C5A5BC,hl+:#B2A35C,selected-bg:#121518 --multi
+zstyle ':fzf-tab:*' fzf-flags --color=bg+:#6a677e,bg:#19143d,spinner:#c5c4ce,hl:#F2629E,fg:#c5c4ce,header:#F2629E,info:#F88695,pointer:#c5c4ce,marker:#1BC4D0,fg+:#c5c4ce,prompt:#F88695,hl+:#F2629E,selected-bg:#19143d --multi
